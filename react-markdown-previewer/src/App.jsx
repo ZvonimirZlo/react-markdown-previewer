@@ -1,10 +1,12 @@
+import { useState } from "react";
+
 function App() {
-  
+  const  [input, setInput] = useState('');
 
   return (
     <>
       <div>
-         <h1>Hello there!</h1>
+         <textarea className="textarea" value={input} onChange={(e) => setInput(e.target.value)}></textarea>
       </div>
    </>
   )
