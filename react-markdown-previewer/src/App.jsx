@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Markdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 function App() {
   const [input, setInput] = useState(
@@ -9,20 +10,19 @@ function App() {
   👈 Try writing some markdown on the left.
 
 
-  # heading h1
-   ## heading h2
-   ### heading h3
-   #### heading h4
-   ##### heading h5
-   ###### heading h6
+# heading h1
+## heading h2
+### heading h3
+#### heading h4
+##### heading h5
+###### heading h6
+text **bold**.
 
-text **bold**
-
-_italic_.
+*italic*.
 
 **_both!_**
 
- ~~crossing~~.
+ ~strikethrough~.
 
 - lists:
   - bulleted
@@ -41,10 +41,10 @@ _italic_.
     <>
       <div className="row">
         <div className='col-6'>
-          <textarea className="textarea p-4" autoFocus value={input} onChange={(e) => setInput(e.target.value)} />
+          <textarea className="textarea p-4" value={input} onChange={(e) => setInput(e.target.value)} />
         </div>
         <div className='col-6 p-4 output'>
-          <Markdown>{input}</Markdown>
+        <Markdown remarkPlugins={[remarkGfm]}>{input}</Markdown>
         </div>
       </div>
     </>

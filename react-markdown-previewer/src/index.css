@@ -3,14 +3,12 @@
   --bgColor: rgb(17, 17, 24);
 }
 
-
 .textarea {
-  width: 100%;
+  width: 90%;
   height: 100vh;
   outline: none;
+  border-radius: 6px;
 }
-
-
 
 body, .textarea{
   background-color: var(--bgColor);
