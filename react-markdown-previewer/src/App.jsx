@@ -29,6 +29,9 @@ text **bold**.
      - two
         - three
 
+  1. numbererd list
+  2. numbererd list
+
 [link](https://github.com)
 > Block Quotes
 
@@ -41,7 +44,7 @@ text **bold**.
     <>
       <div className="row">
         <div className='col-6'>
-          <textarea className="textarea p-4" value={input} onChange={(e) => setInput(e.target.value)} />
+          <textarea className="textarea p-4" value={input} onChange={e => setInput(e.target.value)} />
         </div>
         <div className='col-6 p-4 output'>
         <Markdown remarkPlugins={[remarkGfm]}>{input}</Markdown>
