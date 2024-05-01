@@ -29,8 +29,8 @@ text **bold**.
      - two
         - three
 
-  1. numbererd list
-  2. numbererd list
+  1. numbered list
+  2. numbered list
 
 [link](https://github.com)
 > Block Quotes
