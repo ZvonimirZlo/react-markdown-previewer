@@ -8,7 +8,7 @@
 
 ## About The App
 #### Live demo at: [https://react-weather-app-zlo.netlify.app](https://react-markdown-previewer-z.netlify.app)
-Simple markdowm editor. Try writing some markdown on the left and the changes are re-rendered on the right.
+Simple markdown editor. Try writing some markdown on the left and the changes are re-rendered on the right.
 
 ## Technologies
 `React + Vite`, `Bootstrap`, `react-markdown`, `remark-gfm`.
