@@ -1,5 +1,4 @@
 # React Markdown Previewer</h1>
-<br>
 
 ## Table of Content:
 
