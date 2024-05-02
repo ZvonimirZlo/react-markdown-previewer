@@ -32,6 +32,10 @@ text **bold**.
   1. numbered list
   2. numbered list
 
+* [ ] task list
+* [x] checked item
+
+
 [link](https://github.com)
 > Block Quotes
 

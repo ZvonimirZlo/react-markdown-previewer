@@ -1,6 +1,6 @@
 :root {
-  font-family: Helvetica, Arial, sans-serif;
   --bgColor: #0d1117;
+  font-size: 14px;
 }
 
 .textarea {
