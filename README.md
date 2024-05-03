@@ -7,7 +7,7 @@
 - [Setup](#setup)
 
 ## About The App
-#### Live demo at: [https://react-weather-app-zlo.netlify.app](https://react-markdown-previewer-z.netlify.app)
+#### Live demo at: [https://react-markdown-previewer-z.netlify.app](https://react-markdown-previewer-z.netlify.app)
 Simple markdown editor. Try writing some markdown on the left and the changes are re-rendered on the right.
 
 ## Technologies
