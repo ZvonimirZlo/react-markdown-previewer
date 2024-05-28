@@ -4,6 +4,7 @@
 
 - [About The App](#about-the-app)
 - [Technologies](#technologies)
+- [Screenshots](#screenshots)
 - [Setup](#setup)
 
 ## About The App
