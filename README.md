@@ -14,6 +14,11 @@ Simple markdown editor. Try writing some markdown on the left and the changes ar
 ## Technologies
 `React + Vite`, `Bootstrap`, `react-markdown`, `remark-gfm`.
 
+## Screenshots
+<p>
+ <img src='https://github.com/ZvonimirZlo/react-markdown-previewer/assets/104101182/0646615b-65e3-4327-8633-252fb3fc32a0'>
+</p>
+
 ## Setup
 - download or clone the repository
 - run `npm install`
